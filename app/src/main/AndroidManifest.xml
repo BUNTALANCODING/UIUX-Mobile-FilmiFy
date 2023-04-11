@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FilmiFyAkbar"
+        tools:targetApi="31">
+        <activity
+            android:name=".Halaman_EditProfil"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_PlayAnim11"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayAnim10"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayAnim9"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayAnim8"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayAnim7"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayAnim6"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayAnim5"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayAnim4"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayAnim3"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayAnim2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayAnim1"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayAnim"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayAction2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayAction1"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayAction"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayDrama2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayDrama1"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayDrama"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_DetailAnim11"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAnim10"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAnim9"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAnim8"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAnim7"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAnim6"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAnim5"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAnim4"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAnim3"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAnim2"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAnim1"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAnim"
+            android:exported="false" />
+
+        <activity
+            android:name=".Halaman_DetailDrama11"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailDrama10"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailDrama9"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailDrama8"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailDrama7"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailDrama6"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailDrama5"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailDrama4"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailDrama3"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailDrama2"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailDrama1"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailDrama"
+            android:exported="false" />
+
+        <activity
+            android:name=".Halaman_DetailAction11"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAction10"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAction9"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAction8"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAction7"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAction6"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAction5"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAction4"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAction3"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAction2"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAction1"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailAction"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_Kategori_Drama"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Halaman_Kategori_Action"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Halaman_Kategori_Animation"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Halaman_PlayFilm4p"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayFilm3p"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayFilm2p"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayFilm1p"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayFilmp"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_DetailPop1"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailPop2"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailPop3"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailPop4"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailPop5"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_PlayFilm5"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayFilm4"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayFilm3"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayFilm2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayFilm1"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayFilm"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayFilmLike3"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayFilmLike2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayFilmLike1"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_PlayFilmLike"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Halaman_DetailNew1"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailNew2"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailNew3"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailNew4"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailNew5"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_DetailNew6"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_Love_delete"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_Love"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_AccUser"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_Utama"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_Verifikasi"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_Register"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_LoginFacebook"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_LoginOtherGoogle"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_LoginGoogle"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_LoginUser"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_Awal"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

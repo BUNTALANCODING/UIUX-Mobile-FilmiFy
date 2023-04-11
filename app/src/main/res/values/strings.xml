@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FilmiFy - Akbar</string>
+    <string name="example_bold"><b>Welcome to</b></string>
+    <string name="example_bold1"><b>The most fun place to watch movies can be anywhere</b></string>
+    <string name="example_bold2"><b>Sign in</b></string>
+    <string name="example_bold3"><b>Choose an account</b></string>
+    <string name="example_bold4"><b>Syahdzani</b></string>
+    <string name="example_bold5"><b>Use another account</b></string>
+    <string name="example_bold6"><b>Login</b></string>
+    <string name="example_bold7"><b>Next</b></string>
+    <string name="example_bold8"><b>Sign up</b></string>
+    <string name="example_bold9"><b>OTP Verification</b></string>
+</resources>
