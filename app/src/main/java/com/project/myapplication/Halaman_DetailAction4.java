@@ -58,7 +58,7 @@ public class Halaman_DetailAction4 extends AppCompatActivity {
             @Override
 
             public void onClick(View view) {
-                Intent intent = new Intent(Halaman_DetailAction4.this, Halaman_Kategori_Drama.class);
+                Intent intent = new Intent(Halaman_DetailAction4.this, Halaman_Kategori_Action.class);
                 startActivity(intent);
             }
         });

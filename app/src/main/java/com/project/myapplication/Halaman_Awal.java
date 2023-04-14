@@ -10,6 +10,12 @@ import android.widget.Button;
 public class Halaman_Awal extends AppCompatActivity {
     private Button lanjut;
     @Override
+    protected void onStart() {
+        overridePendingTransition(0,0);
+        super.onStart();
+
+    }
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_halaman_awal);

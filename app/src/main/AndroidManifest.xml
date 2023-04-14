@@ -8,11 +8,24 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/iconfimi"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/iconfimi_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FilmiFyAkbar"
         tools:targetApi="31">
+        <activity
+            android:name=".Splash_Screan"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Halaman_Verifikasi_Again"
+            android:exported="false" />
         <activity
             android:name=".Halaman_EditProfil"
             android:exported="false" />
@@ -124,7 +137,6 @@
         <activity
             android:name=".Halaman_DetailAnim"
             android:exported="false" />
-
         <activity
             android:name=".Halaman_DetailDrama11"
             android:exported="false" />
@@ -161,7 +173,6 @@
         <activity
             android:name=".Halaman_DetailDrama"
             android:exported="false" />
-
         <activity
             android:name=".Halaman_DetailAction11"
             android:exported="false" />
@@ -200,15 +211,13 @@
             android:exported="false" />
         <activity
             android:name=".Halaman_Kategori_Drama"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Halaman_Kategori_Action"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Halaman_Kategori_Animation"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Halaman_PlayFilm4p"
             android:exported="false"
@@ -338,11 +347,7 @@
         <activity
             android:name=".Halaman_Awal"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

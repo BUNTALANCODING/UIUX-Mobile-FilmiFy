@@ -44,7 +44,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/Nama"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:ems="10"
@@ -52,7 +52,7 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/Username"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:ems="10"
@@ -60,7 +60,7 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName6"
+            android:id="@+id/Email"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:ems="10"
@@ -68,7 +68,7 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName5"
+            android:id="@+id/Pass"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:ems="10"
@@ -76,7 +76,7 @@
             android:inputType="textPersonName|textPassword" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName7"
+            android:id="@+id/Conpass"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:ems="10"

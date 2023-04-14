@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/btnstroke3"
-    tools:context=".Halaman_Verifikasi">
+    tools:context=".Halaman_Verifikasi_Again">
 
     <ImageView
         android:id="@+id/kembali"
@@ -107,5 +106,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.28" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

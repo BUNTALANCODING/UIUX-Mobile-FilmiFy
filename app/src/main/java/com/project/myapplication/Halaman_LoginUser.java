@@ -145,7 +145,7 @@ public class Halaman_LoginUser extends AppCompatActivity {
 
 
                     }
-                }, 7000);
+                }, 4000);
 
                 Handler handler1 = new Handler();
                 handler1.postDelayed(new Runnable() {
@@ -156,7 +156,7 @@ public class Halaman_LoginUser extends AppCompatActivity {
 
 
                     }
-                }, 8000);
+                }, 4000);
 
 
             }
@@ -178,7 +178,7 @@ public class Halaman_LoginUser extends AppCompatActivity {
 
 
                     }
-                }, 7000);
+                }, 4000);
 
                 Handler handler1 = new Handler();
                 handler1.postDelayed(new Runnable() {
@@ -189,7 +189,7 @@ public class Halaman_LoginUser extends AppCompatActivity {
 
 
                     }
-                }, 8000);
+                }, 4000);
 
 
             }
@@ -212,7 +212,7 @@ public class Halaman_LoginUser extends AppCompatActivity {
                         Intent intent = new Intent(Halaman_LoginUser.this, Halaman_Register.class);
                         startActivity(intent);
                     }
-                }, 7000);
+                }, 4000);
             }
         });
 
